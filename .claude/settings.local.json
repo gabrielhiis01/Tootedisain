@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --version)",
+      "Bash(npx playwright *)",
+      "Bash(mkdir -p /Users/kapriel/liquisity/.claude/skills/run-liquisity)",
+      "Bash(mkdir -p /tmp/liquisity-screenshots)",
+      "Bash(node .claude/skills/run-liquisity/driver.mjs smoke)",
+      "Bash(npm ls *)",
+      "Bash(node -e \"require.resolve\\('@playwright/test'\\)\")",
+      "Bash(node --input-type=module -e \"import { chromium } from 'playwright'\")"
+    ]
+  }
+}
