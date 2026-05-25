@@ -1,0 +1,17 @@
+{
+  "name": "Liquisity",
+  "short_name": "Liquisity",
+  "description": "The chrome AirPods case. Hand-polished. Guaranteed for life.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f5f5f5",
+  "theme_color": "#030712",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

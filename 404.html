@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found — Liquisity</title>
+  <meta name="description" content="The page you were looking for doesn't exist. Return to Liquisity." />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="logo.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .error-section {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 48px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .error-section::before {
+      content: '404';
+      position: absolute;
+      font-family: Arial, sans-serif;
+      font-size: clamp(160px, 30vw, 320px);
+      font-weight: bold;
+      letter-spacing: -12px;
+      color: var(--black);
+      opacity: 0.03;
+      pointer-events: none;
+      user-select: none;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+
+    .error-label {
+      font-family: 'Inter', sans-serif;
+      font-size: 10px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--black-70);
+      margin-bottom: 24px;
+      position: relative;
+    }
+
+    .error-heading {
+      font-family: Arial, sans-serif;
+      font-size: clamp(36px, 5vw, 64px);
+      font-weight: bold;
+      letter-spacing: -2px;
+      line-height: 1;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .error-sub {
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--black-70);
+      max-width: 400px;
+      margin-bottom: 48px;
+      position: relative;
+    }
+
+    .error-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+    }
+
+    .error-link {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--black-70);
+      text-decoration: none;
+      border-bottom: 1px solid var(--black-10);
+      padding-bottom: 2px;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    .error-link:hover { color: var(--black); border-color: var(--black); }
+  </style>
+</head>
+<body>
+
+  <a class="skip-to-content" href="#errorMain">Skip to content</a>
+
+  <main id="errorMain">
+    <section class="error-section">
+      <p class="error-label">Error 404</p>
+      <h1 class="error-heading">Nothing here.</h1>
+      <p class="error-sub">The page you were looking for has moved or doesn't exist. The case, on the other hand, is exactly where you left it.</p>
+      <div class="error-actions">
+        <a href="index.html" class="btn-primary">Back to Home</a>
+        <a href="buy.html" class="error-link">Shop the Case</a>
+        <a href="contact.html" class="error-link">Contact Us</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
