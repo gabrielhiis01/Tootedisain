@@ -73,10 +73,15 @@
 
     .error-actions {
       display: flex;
-      gap: 16px;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
       position: relative;
+    }
+
+    .error-links {
+      display: flex;
+      gap: 32px;
     }
 
     .error-link {
@@ -105,8 +110,10 @@
       <p class="error-sub">The page you were looking for has moved or doesn't exist. The case, on the other hand, is exactly where you left it.</p>
       <div class="error-actions">
         <a href="index.html" class="btn-primary">Back to Home</a>
-        <a href="buy.html" class="error-link">Shop the Case</a>
-        <a href="contact.html" class="error-link">Contact Us</a>
+        <div class="error-links">
+          <a href="buy.html" class="error-link">Shop the Case</a>
+          <a href="contact.html" class="error-link">Contact Us</a>
+        </div>
       </div>
     </section>
   </main>

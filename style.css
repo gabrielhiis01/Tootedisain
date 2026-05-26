@@ -360,7 +360,7 @@ footer {
 }
 
 /* ─── LEGAL PAGES (shipping, privacy, terms) ─────────────────────────── */
-.legal-body { max-width: 900px; margin: 0 auto; padding: 64px 48px 0; }
+.legal-body { max-width: 900px; margin: 0 auto; padding: 40px 48px 0; }
 .legal-section { padding: 48px 0; border-bottom: 1px solid var(--black-10); }
 .legal-section:last-child { border-bottom: none; }
 .legal-section-label { font-family: 'Inter', sans-serif; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--black-70); margin-bottom: 16px; }
@@ -389,8 +389,8 @@ a.inline-link { color: var(--black); text-decoration: underline; text-underline-
   .footer-brand { flex: none; }
   .footer-nav { grid-template-columns: repeat(2, 1fr); gap: 32px; }
   .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
-  .page-header { padding: 120px 24px 48px; }
-  .legal-body { padding: 40px 24px 0; }
+  .page-header { padding: 120px 24px 40px; }
+  .legal-body { padding: 28px 24px 0; }
 }
 
 /* ─── REDUCED MOTION ─────────────────────────────────────────────────── */
